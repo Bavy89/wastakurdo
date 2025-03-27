@@ -1,38 +1,58 @@
-### Description
+# Wasta Kurdo - Music Portfolio
 
-A simple portfolio template for developer/designers built with React. 
+A personal portfolio website showcasing my music and artistic journey as a Kurdish hip-hop artist based in Sweden.
 
-### [live preview](https://ubaimutl.github.io/react-portfolio/)
+## 🎵 Features
 
-[![react portfoiio](src/assets/images/react%20portfolio%20gif.gif)](https://ubaimutl.github.io/react-portfolio/)
+- Clean, modern design
+- Music integration with Spotify
+- Responsive layout for all devices
+- Interactive navigation
+- About section with latest releases
+- Direct music playback
+- Contact form for inquiries
 
-### Features
+## 🚀 Live Music
 
-- Fully Responsive
-- Multi-Page Layout
-- Contact Form With EmailJs
-- React-Bootstrap
-- Edit Content From One Place
+Listen to my music directly on the website or visit my [Spotify Profile](https://open.spotify.com/artist/22CBLJY6bPOw8QHOkHHKDM)
 
-### Setup
+## 💻 Tech Stack
 
-Get the code
+- React.js
+- React Bootstrap
+- React Router
+- EmailJS for contact form
+- Spotify Web Playback SDK
 
-<pre>git clone https://github.com/ubaimutl/react-portfolio.git</pre>
- 
-Install required dependencies
+## 🛠️ Setup and Installation
 
-<pre>yarn install</pre>
+1. Clone the repository:
+```bash
+git clone [your-repo-url]
+```
 
+2. Install dependencies:
+```bash
+npm install
+```
 
-Start the server
+3. Start the development server:
+```bash
+npm start
+```
 
-<pre>yarn start</pre>
+The site will be available at `http://localhost:3000`
 
-### More
+## 📱 Contact
 
-Modify pages content in  `src/content_option.js`.
+Feel free to reach out through:
+- The contact form on the website
+- Social media links in the navigation menu
 
-### Thanks
+## 🎨 Customization
 
-If you like this portfolio template don't forget give it a ⭐ 
+The site content can be modified through `src/content_option.js`
+
+## 📄 License
+
+This project is open source and available under the MIT License.
