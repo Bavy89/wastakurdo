@@ -14,7 +14,7 @@ const introdata = {
         fifth: "I blend melodies & culture"
     },
     description: "Welcome to my creative portfolio showcasing my musical journey and artistic works",
-    your_img_url: "https://images.unsplash.com/photo-1525362081669-2b476bb628c3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    your_img_url: "https://images.unsplash.com/photo-1533497197926-c9e810dcea9a?q=80&w=1937&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
 };
 
 const dataabout = {

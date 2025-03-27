@@ -30,17 +30,24 @@ section {
     text-decoration: none;
 }
 
+.home.s_c {
+    padding-top: 0;
+}
+
 .intro_sec {
-    height: calc(100vh - 60px);
-    min-height: 700px;
     height: 100vh;
-    margin-top: -60px;
+    min-height: 700px;
+    position: relative;
+    margin-top: 0;
+    padding-top: 0;
+    background-color: var(--bg-color);
 }
 
 @media (max-width:991.98px) {
     .intro_sec {
         display: block;
         height: auto!important;
+        padding-top: 0;
     }
 }
 
@@ -59,6 +66,7 @@ section {
 .intro_sec .intro {
     max-width: 450px;
     margin: 0 auto;
+    padding-top: 70px;
 }
 
 @media (max-width:991.98px) {
@@ -66,6 +74,7 @@ section {
         max-width: 700px;
         padding-left: 20px;
         padding-right: 20px;
+        padding-top: 70px;
     }
 }
 
@@ -92,10 +101,26 @@ section {
 }
 
 .intro_sec .h_bg-image {
+    position: relative;
+    overflow: hidden;
+    background-color: var(--bg-color);
+}
+
+.carousel-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
     background-size: cover;
     background-position: center;
-    min-height: 700px;
-    position: relative;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+    filter: saturate(0.5);
+}
+
+.carousel-image.active {
+    opacity: 1;
 }
 
 .ac_btn {

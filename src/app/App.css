@@ -1,6 +1,10 @@
+.s_c {
+    padding-top: 70px;
+}
+
 @media only screen and (max-width: 991px) {
     .s_c {
-        padding-top: 40px;
+        padding-top: 70px;
     }
 }
 
